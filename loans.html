@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from myjob.popitheme.com/components/accordion.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Mar 2018 13:46:10 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hatua - Loans</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- Favicon -->
+    <link rel="Shortcut Icon"  href="assets/images/favicon.png"  type="image/x-icon">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Page loader start -->
+    <div class="page-loader"></div>
+    <!-- Page loader end -->
+    <!-- Header start -->
+    <header class="main-header">
+        <!-- Navbar start -->
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo start -->
+                <a class="navbar-brand">
+                    <img src="assets/images/hatua.png" alt="...">
+                </a>
+                <!-- Logo end -->
+                <!-- Navs start -->
+                <div class="navs">
+                    <!-- Account nav start -->
+                    <ul class="nav navbar-nav account">
+                        <li><a href="login.html"><i class="md-lock-open m-r-10"></i>Login</a></li>
+                        <li><a href="register.html"><i class="md-face m-r-10"></i>Register</a></li>
+                    </ul>
+                    <!-- Account nav end -->
+                    <!-- Main nav start -->
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="loans.html">Loans</a>
+                        </li>
+                        <li>
+                            <a href="transactions.html">E-Money</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Main nav end -->
+                </div>
+                <!-- Navs end -->
+                <!-- Responsive nav button start -->
+                <ul class="nav navbar-nav responsive-btn">
+                    <li><a href="#"><i class="md-menu m-r-10"></i></a></li>
+                </ul>
+                <!-- Responsive nav button end -->
+            </div>
+        </nav>
+        <!-- Navbar end -->
+    </header>
+    <!-- Header end -->
+    <section class="page-header lighten-4" style="background: url(assets/images/cover-1.jpg)">
+        <div class="container">
+            <h2>Get an instant loan!</h2>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="card m-b-0">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Loan Calculator</h5>
+                            <div class="input-group">
+                                <div class="content-row">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="md-money"></i>
+                                            </span>
+                                            <input type="number" class="form-control" id="amount" name="amount" placeholder="Loan Amount">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="md-calendar"></i>
+                                            </span>
+                                            <input type="number" id="months" placeholder="Months" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="md-calendar"></i>
+                                            </span>
+                                            <input type="text" readonly="true" id="years" placeholder="Years" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="md-money"></i>
+                                            </span>
+                                            <input type="number" id="interest" placeholder="Interest Rate" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="md-money-off"></i>
+                                            </span>
+                                            <input type="number" id="down" placeholder="Down Payment" class="form-control">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <button class="btn btn-warning btn-xs" type="reset">Clear</button>
+                                        <button class="btn btn-primary btn-xs" onclick="myFunction()">Calculate</button>
+                                    </p>
+                                    <p id="output">Monthly Payment</p>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="accordion-group">
+                        <div class="accordion active">
+                            <h4 class="accordion-title">
+                                <a href="#"><i class="md-graduation-cap m-r-10"></i>Elimu Loan</a>
+                            </h4>
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet, in eos prompta nonumes petentium, ut laudem eripuit debitis nam. Sea ea exerci animal, his ei assum exerci salutatus, at omnis accusata periculis eum. Nemore latine aeterno nec in. No sanctus appellantur sea, te semper dignissim mea. Solet facilisis comprehensam duo eu, vix et etiam saepe sensibus. Nec tibique mediocrem conceptam cu. Omnis nominavi ut duo, sit an nihil detracto, id has soluta intellegat.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h4 class="accordion-title">
+                                <a href="#"><i class="md-shopping-cart m-r-10"></i>Business Loan</a>
+                            </h4>
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet, in eos prompta nonumes petentium, ut laudem eripuit debitis nam. Sea ea exerci animal, his ei assum exerci salutatus, at omnis accusata periculis eum. Nemore latine aeterno nec in. No sanctus appellantur sea, te semper dignissim mea. Solet facilisis comprehensam duo eu, vix et etiam saepe sensibus. Nec tibique mediocrem conceptam cu. Omnis nominavi ut duo, sit an nihil detracto, id has soluta intellegat.</p>
+                                <p>Lorem ipsum dolor sit amet, in eos prompta nonumes petentium, ut laudem eripuit debitis nam. Sea ea exerci animal, his ei assum exerci salutatus, at omnis accusata periculis eum. Nemore latine aeterno nec in. No sanctus appellantur sea, te semper dignissim mea.</p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <h4 class="accordion-title">
+                                <a href="#"><i class="md-flash m-r-10"></i>Emergency Loan</a>
+                            </h4>
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet, in eos prompta nonumes petentium, ut laudem eripuit debitis nam. Sea ea exerci animal, his ei assum exerci salutatus, at omnis accusata periculis eum. Nemore latine aeterno nec in. No sanctus appellantur sea, te semper dignissim mea. Solet facilisis comprehensam duo eu, vix et etiam saepe sensibus. Nec tibique mediocrem conceptam cu. Omnis nominavi ut duo, sit an nihil detracto, id has soluta intellegat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Company</h5>
+                    <p>Lorem ipsum dolor sit amet, eam verear dignissim ne, legere altera ex sit. Magna rationibus efficiantur vel at, cum cu iudico atomorum. Tale habemus molestie an sea, ne virtute dissentiet his, at sea ipsum insolens. Vitae doctus discere qui ne, enim iudico at pro, no sed modus omnes dolorem. Assum ubique equidem in eos. Putent maiestatis in ius.</p>
+                    <p>Vitae doctus discere qui ne, enim iudico at pro, no sed modus omnes dolorem. Assum ubique equidem in eos. Putent maiestatis in ius.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact us</h5>
+                    <p>Likoni 123-78B, <br> Mombasa, Kenya</p>
+                    <p>+254 712345678</p>
+                    <p>info@hatua.com</p>
+                    <p>http://www.hatua.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Popular Services</h5>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="md-caret-right m-r-10"></i>Loans
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="md-caret-right m-r-10"></i>Books of account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="md-caret-right m-r-10"></i>Auditing Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="md-caret-right m-r-10"></i>Business Advisor
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="sm">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <ul class="social-icons social-icons-sm">
+                        <li><a href="#" class="facebook"><i class="md-facebook"></i></a></li>
+                        <li><a href="#" class="twitter"><i class="md-twitter"></i></a></li>
+                        <li><a href="#" class="google"><i class="md-google"></i></a></li>
+                        <li><a href="#" class="linkedin"><i class="md-linkedin"></i></a></li>
+                        <li><a href="#" class="flickr"><i class="md-flickr"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <p class="copyright">Copyright &copy; 2018. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- ================= Script files ================= -->
+    <!-- Jquery -->
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <!-- Jquery ui -->
+    <script src="assets/js/jquery/jquery-ui.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- Bootstrap slider -->
+    <script src="assets/js/bootstrap-slider/bootstrap-slider.min.js"></script>
+    <!-- Waves effect -->
+    <script src="assets/js/waves/waves.min.js"></script>
+    <!-- Scroll animate effect -->
+    <script src="assets/js/scroll.js"></script>
+    <!-- Owl carousel -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Summernote editor -->
+    <script src="assets/js/summernote/summernote.min.js"></script>
+    <!-- Typed.js -->
+    <script src="assets/js/typed.min.js"></script>
+    <!-- Custom -->
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript">
+        function myFunction() {
+
+            var myLoan = document.getElementById("amount").value;
+            var myMonths = document.getElementById("months").value;
+            var myYears = document.getElementById("years").value;
+            var myInterest = document.getElementById("interest").value;
+            var myDown = document.getElementById("down").value;
+
+            if (myLoan == "") {
+                alert("Enter the Principal / Amount");
+                return false;
+            }
+            else if (myMonths == "") {
+                alert("Enter the period of repaying");
+                return false;
+            }
+            else if (myInterest == "") {
+                alert("Enter the interest rate");
+                return false;
+            }
+            else if (myDown == "") {
+                alert("Enter monthly repaying installments");
+                return false;
+            }
+
+            var loan = $('#amount').val(),
+                month = $('#months').val(),
+                int = $('#interest').val(),
+                years = $('#years').val(),
+                down = $('#down').val(),
+                amount = parseInt(loan),
+                months = parseInt(month),
+                down = parseInt(down),
+                annInterest = parseFloat(int),
+                monInt = annInterest / 1200,
+                calculation = ((monInt + (monInt / (Math.pow((1 + monInt), months) -1))) * (amount - (down || 0))).toFixed(2);
+
+                document.getElementById("output").innerHTML = calculation;
+        }
+
+        $(function(){
+            var month = $(this).val(),
+              doneTypingInterval = 500,
+              months = parseInt(month),
+              typingTimer;
+
+          $('#months').keyup(function(){
+              month = $(this).val();
+              months = parseInt(month);
+          
+              clearTimeout(typingTimer);
+              if (month) {
+                  typingTimer = setTimeout(doneTyping, doneTypingInterval);
+              }
+          });
+
+          function doneTyping () {
+            $('#years').val(months/12);  
+          }
+        })
+
+        $(function(){
+            var month = $(this).val(),
+              doneTypingInterval = 500,
+              months = parseInt(month),
+              typingTimer;
+
+          $('#months').keyup(function(){
+              month = $(this).val();
+              months = parseInt(month);
+          
+              clearTimeout(typingTimer);
+              if (month) {
+                  typingTimer = setTimeout(doneTyping, doneTypingInterval);
+              }
+          });
+
+          function doneTyping () {
+            $('#years').val(months/12);  
+          }
+        })
+
+        $(function(){
+            var year = $(this).val(),
+              doneTypingInterval = 500,
+              years = parseInt(year),
+              typingTimer;
+
+          $('#years').keyup(function(){
+              year = $(this).val();
+              myears = parseInt(year);
+          
+              clearTimeout(typingTimer);
+              if (year) {
+                  typingTimer = setTimeout(doneTyping, doneTypingInterval);
+              }
+          });
+
+          function doneTyping () {
+            $('#months').val(year * 12);  
+          }
+        })
+    </script>
+</body>
+
+<!-- Mirrored from myjob.popitheme.com/components/accordion.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Mar 2018 13:46:10 GMT -->
+</html>
